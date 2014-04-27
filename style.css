@@ -9,6 +9,7 @@ header, main, footer {
 header .container, main .container, footer .container {
 	max-width: 855px;
 	margin: auto;
+	/*vertical-align: top;*/
 }
 
 header {
@@ -30,9 +31,9 @@ main {
 	background: white;
 }
 
-footer .container {
-	vertical-align: top;
-}
+/*footer .container {*/
+	/*vertical-align: top;*/
+/*}*/
 
 footer .Contact {
 	float: left;
@@ -40,4 +41,18 @@ footer .Contact {
 
 footer .Sitemap {
 	float: right;
+}
+
+main .text {
+	float: left;
+	background: white;
+	width: 570px;
+	height: 500px;
+}
+
+main .bulb {
+	float: right;
+	background: white;
+	width: 285px;
+	height: 500px;
 }
