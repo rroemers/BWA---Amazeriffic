@@ -7,14 +7,37 @@ header, main, footer {
 }
 
 header .container, main .container, footer .container {
-	max-width: 855px
+	max-width: 855px;
 	margin: auto;
 }
 
 header {
 	background: white;
+	overflow: auto;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+}
+
+header nav {
+	float: right;
+	width: 285px;
 }
 
 main {
 	background: white;
+}
+
+footer .container {
+	vertical-align: top;
+}
+
+footer .Contact {
+	float: left;
+}
+
+footer .Sitemap {
+	float: right;
 }
